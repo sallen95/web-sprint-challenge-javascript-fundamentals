@@ -1,23 +1,23 @@
 // 1. Copy and paste your prototype in here and refactor into class syntax.
 
 
-class CuboidMaker{
-    constructor(length, width, height){
-        this.length = length;
-        this.width = width;
-        this.height = height;
-    }
+// class CuboidMaker{
+//     constructor(length, width, height){
+//         this.length = length;
+//         this.width = width;
+//         this.height = height;
+//     }
 
-    volume(){
-        return this.length * this.width * this.height;
-    }
+//     volume(){
+//         return this.length * this.width * this.height;
+//     }
 
-    surfaceArea(){
-        return 2 * (this.length * this.width + this.length * this.height + this.width * this.height);
-    }
-}
+//     surfaceArea(){
+//         return 2 * (this.length * this.width + this.length * this.height + this.width * this.height);
+//     }
+// }
 
-const cuboid = new CuboidMaker(4, 5, 5);
+// const cuboid = new CuboidMaker(4, 5, 5);
 
 
 
